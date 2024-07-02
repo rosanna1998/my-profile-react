@@ -1,0 +1,29 @@
+.projects-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap items to the scroll container */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: center; /* Snap item to the center of the container */
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slide h3 {
+    margin-top: 10px;
+  }
+  
